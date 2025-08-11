@@ -5,7 +5,7 @@ import java.io.*;
 public class IOFIlePersistence implements FilePersistence {
 
     private final String currentDir = System.getProperty("user.dir");
-    private final String storeDir = "/managedFiles_IO";
+    private final String storeDir = File.separator + "managedFiles_IO";
     private final String fileName;
 
     public IOFIlePersistence(String fileName) throws IOException {
@@ -18,11 +18,15 @@ public class IOFIlePersistence implements FilePersistence {
 
     @Override
     public String write(final String data) {
+        String filePath = currentDir + storeDir + File.separator + fileName;
         try (
-                var fileWhiter = new FileWriter(currentDir + storeDir + fileName, true);
-                var bufferedWriter = new BufferedWriter(fileWhiter);
+                var fileWriter = new FileWriter(filePath, true);
+                var bufferedWriter = new BufferedWriter(fileWriter);
                 var printWriter = new PrintWriter(bufferedWriter);
-        ) {
+        ){
+            printWriter.println(data);
+            System.out.println("Dados escritos com sucesso em: " + filePath);
+
         } catch (IOException ex) {
             ex.printStackTrace();
         }
