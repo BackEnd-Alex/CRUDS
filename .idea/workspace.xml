@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b476f80-fd74-4835-ba79-7f0afb551c8b" name="Changes" comment="&quot;Começando a trabalhar acom Java.io&quot;">
-      <change afterPath="$PROJECT_DIR$/managedFiles_IOuser.csv" afterDir="false" />
+    <list default="true" id="9b476f80-fd74-4835-ba79-7f0afb551c8b" name="Changes" comment="&quot;Correção feitas no metodo write, pois não estava salvando a escrita.&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/managedFiles_IO/user.csv" beforeDir="false" afterPath="$PROJECT_DIR$/managedFiles_IO/user.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dio/persistence/IOFIlePersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/persistence/IOFIlePersistence.java" afterDir="false" />
     </list>
@@ -97,28 +97,29 @@
       <option name="project" value="LOCAL" />
       <updated>1754924953080</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Correção feitas no metodo write, pois não estava salvando a escrita.&quot;">
+      <option name="closed" value="true" />
+      <created>1754937493809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754937493809</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;Correção feitas no metodo write, pois não estava salvando a escrita.&quot;">
+      <option name="closed" value="true" />
+      <created>1754937529572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754937529572</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;Começando a trabalhar acom Java.io&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Começando a trabalhar acom Java.io&quot;" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="&quot;Correção feitas no metodo write, pois não estava salvando a escrita.&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Correção feitas no metodo write, pois não estava salvando a escrita.&quot;" />
   </component>
 </project>
